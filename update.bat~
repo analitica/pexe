@@ -1,2 +1,2 @@
 @echo off
-%programFiles%\git\bin\git.exe pull
+%programFiles%\git\bin\git.exe pull origin master
