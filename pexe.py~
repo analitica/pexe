@@ -22,7 +22,7 @@ total_disk = disk_p["total"]
 #print(host)
 print(total_disk)
 print(free_disk)
-quit();
+#quit();
 params = urllib.urlencode({'hostname': host,'total_disk':total_disk,'free_disk':free_disk})
 url = "http://10.0.2.2/f/htdocs/JORGE_CARDONA/pexe/report_disk_status.php?%s" % params
 print(url)

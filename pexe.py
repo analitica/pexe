@@ -24,7 +24,7 @@ print(total_disk)
 print(free_disk)
 #quit();
 params = urllib.urlencode({'hostname': host,'total_disk':total_disk,'free_disk':free_disk})
-url = "http://10.0.2.2/f/htdocs/JORGE_CARDONA/pexe/report_disk_status.php?%s" % params
+url = "http://192.168.99.16/pexe/report_disk_status.php?%s" % params
 print(url)
 f = urllib.urlopen(url);
 print(f.read())
